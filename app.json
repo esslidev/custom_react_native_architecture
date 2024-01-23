@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "travinglo",
+    "slug": "travinglo",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icons/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/icons/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#070714",
+      "darkModeBackgroundColor": "#070714"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icons/adaptive-foreground-icon.png",
+        "backgroundColor": "./assets/icons/adaptive-background-icon.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/icons/favicon.png",
+      "bundler": "metro"
+    }
+  }
+}
